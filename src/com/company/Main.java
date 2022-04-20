@@ -15,11 +15,11 @@ public class Main {
         forest.info();
         Woodcutter woodcutter = new Woodcutter("Майкл", 70, "Дровосек");
         woodcutter.info();
-        //woodcutter.Woodcut(forest.numWood, woodcutter.power);
+        woodcutter.Woodcut(forest.numWood, woodcutter.power);
         Forester forester = new Forester("Не Майкл", 30, "Лесник");
         forester.info();
-        //forester.PlantForest(forest.NullOfWood, forester.power, forest.numWood);
-        forest.Game(woodcutter.name, forester.name, woodcutter.power, forester.power, forest.numWood);
+        forester.PlantForest(forest.NullOfWood, forester.power, forest.numWood);
+        //forest.Game(woodcutter.name, forester.name, woodcutter.power, forester.power, forest.numWood);
 
 
     }
